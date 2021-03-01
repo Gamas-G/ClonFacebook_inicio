@@ -1,0 +1,130 @@
+:root{
+    box-sizing: border-box;
+    --bgtop: #edf0f5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: inherit;
+}
+
+.contenedor{
+    /* height: 90%; */
+    background-color: var(--bgtop);
+}
+.fb-contenedorglobal{
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+.contenedor-data{
+    display: flex;
+    justify-content: center;
+    max-width: 980px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.contenedor-data__left{
+    width: 490px;
+    padding-right: 32px; 
+}
+.contenedor-data__left p{
+    font-size: 1.75em;
+}
+h2{
+    color: #1877f2;
+    font-size: 3em;
+    padding: 112px 0 16px;
+}
+
+.contenedor-form{
+    width: 396px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    margin: 40px 0 0;
+    text-align: center;
+}
+.contenedor-form div.txt{
+    padding: 6px 0;
+}
+.contenedor-form div.txt input{
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.btn button,
+.btn a{
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn button:hover{
+    background-color: #4267b2;
+}
+div.forgot, a{
+    text-decoration: none;
+    padding-top: 6px;
+    color: #1877f2;
+}
+.btn-entrar button{
+    background-color: #1877f2;
+    font-size: 20px;
+    width: 360px;
+}
+.btn-newcuenta a{
+    display: inline-block;
+    background-color: #42b72a;
+    font-size: 17px;
+    font-weight: bold;
+}
+.contenedor-footer{
+    margin: 28px auto 0 auto;
+    width: 330px;
+    text-align: center;
+}
+.contenedor-footer a{
+    color: #000;
+    font-weight: bold;
+}
+.contenedor-footer a:hover{
+    border-bottom: 1px solid #000;
+}
+
+div[division]{
+    border: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+.contenedor-global{
+    margin: 0 auto;
+    color: #8a8d91;
+    width: 980px;
+}
+
+.contenedor__down{
+    padding-top: 20px;
+    background-color: #fff;
+}
+.inf-down-lenguage ul{
+    display: flex;
+    list-style: none;
+}
+.inf-down-lenguage ul li{
+    padding-right: 10px;
+}
+.inf-down-lenguage ul li a{
+    color: #8a8d91;
+}
+.contenedor-global p{
+    margin-top: 20px;
+}
